@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".AtvActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="705dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_gravity="center_vertical"
+                android:background="#fafafa"
+                android:fontFamily="@font/mitr_medium"
+                android:gravity="center_vertical"
+                android:text="กิจกรรมในมหาลัย"
+                android:textAlignment="center"
+                android:textColor="#4E4E4E"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="382dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/mitr_extralight"
+                    android:text="มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ ได้จัดทำโครงการสถาบันเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี โดยมีวัตถุประสงค์เพื่อขยายโอกาสทางการศึกษาและกระจายฐานบริการระดับอุดมศึกษาด้านวิทยาศาสตร์และเทคโนโลยี ไปสู่จังหวัดปราจีนบุรีและภูมิภาคใกล้เคียงรวมทั้งดำเนินการวิจัยและพัฒนาการฝึกอบรม การถ่ายทอดเทคโนโลยีต่างๆ แก่ชุมชนและภาคอุตสาหกรรม\n"
+                    android:textAlignment="textStart"
+                    android:textColor="#4E4E4E"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fafafa"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fafafa"
+                    android:orientation="vertical">
+
+
+                    <TextView
+
+                        android:layout_width="98dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal|left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/rounded_text"
+                        android:backgroundTint="#353535"
+                        android:elevation="6dp"
+                        android:fontFamily="@font/mitr_medium"
+                        android:text="IT3K"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="382dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:text="การแข่งขันกีฬาที่ใหญ่ที่สุดของเด็กไอทีทั้ง 3 พระจอม โดยครั้งนี้มีการจัดกิจกรรมขึ้น ณ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+                        android:textAlignment="textStart"
+                        android:textColor="#4E4E4E"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="380dp"
+                        android:layout_height="157dp"
+                        android:layout_gravity="center"
+                        android:background="#FAFAFA">
+
+
+                        <LinearLayout
+                            android:layout_width="500dp"
+                            android:layout_height="150dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/kn1"
+                                />
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/kn2"
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/kn3"
+                                />
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/kn4"
+                                />
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/kn6"
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/kn5"
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/kn7"
+                                />
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/kn8"
+                                />
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/kn9"
+                                />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAFAFA"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="277dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|left"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/rounded_text"
+                            android:backgroundTint="#353535"
+                            android:elevation="6dp"
+                            android:fontFamily="@font/mitr_medium"
+                            android:text="การจัดอบรมในมหาลัยของนักศึกษา"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+
+                            android:layout_width="382dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/mitr_extralight"
+                            android:text="การจัดอบรมและให้ความรู้โดยนักศึกษาในมหาวิทยาลัย เพื่อนำความรู้ที่ได้รับ หรือ แนวคิดใหม่ๆที่น่าสนใจมาจัดกิจกรรมอบรมผ่านสื่อการสอนในรูปแบบต่างๆ "
+                            android:textAlignment="textStart"
+                            android:textColor="#4E4E4E"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <HorizontalScrollView
+                            android:layout_width="380dp"
+                            android:layout_height="157dp"
+                            android:layout_gravity="center"
+                            android:background="#FAFAFA">
+
+
+                            <LinearLayout
+                                android:layout_width="500dp"
+                                android:layout_height="150dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:padding="2dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/bo2" />
+
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:padding="2dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bo1" />
+
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:padding="2dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bo3" />
+
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:padding="2dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bo4" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:padding="2dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/bo5" />
+
+
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAFAFA"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FAFAFA"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="281dp"
+                                android:layout_height="29dp"
+                                android:layout_gravity="center_horizontal|left"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:background="@drawable/rounded_text"
+                                android:backgroundTint="#353535"
+                                android:elevation="6dp"
+                                android:fontFamily="@font/mitr_medium"
+                                android:text="สถานที่ออกกำลังกายและสันทนาการ"
+                                android:textAlignment="center"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+
+                                android:layout_width="382dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/mitr_extralight"
+                                android:text="สถานที่ออกกำลังกายพร้อมจัดหาอุปกรณ์การออกกำลังกายต่างๆ โดยมีทั้งฟิตเนสเซ็นเตอร์ สนามฟุตบอลหญ้าเทียม สนามบาส สนามแบตมินตัน สนามเทนนิส และโรงยิม เพื่อใช้ในการเล่นกีฬาชนิดต่างๆ และเป็นสถานที่ผ่อนคลายไว้บริการนักศึกษา"
+                                android:textAlignment="textStart"
+                                android:textColor="#4E4E4E"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/dance" />
+
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="281dp"
+                            android:layout_height="29dp"
+                            android:layout_gravity="center_horizontal|left"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/rounded_text"
+                            android:backgroundTint="#353535"
+                            android:elevation="6dp"
+                            android:fontFamily="@font/mitr_medium"
+                            android:text="สโมสร ชมรม และกิจกรรมที่หลากหลาย"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+
+                            android:layout_width="382dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/mitr_extralight"
+                            android:text="กิจกรรมส่งเสริมให้นักศึกษาได้เพิ่มพูนประสบการณ์ ฝึกการบริหารงาน การรับผิดชอบตนเอง และการทำงานร่วมกันอย่างมีประสิทธิภาพ"
+                            android:textAlignment="textStart"
+                            android:textColor="#4E4E4E"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/consert" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/mitr_extralight"
+                            android:text="Department of Information Technology (IT)"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        app:menu="@menu/bottom_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

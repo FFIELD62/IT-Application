@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".RoomActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="705dp"
+        android:background="#FAFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_gravity="center_vertical"
+                android:background="#FAFAFA"
+                android:fontFamily="@font/mitr_medium"
+                android:gravity="center_vertical"
+                android:text="ห้องเรียน / ห้องปฎิบัติการ"
+                android:textAlignment="center"
+                android:textColor="#4E4E4E"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_text"
+                    android:backgroundTint="#215DB3"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/mitr_light"
+                    android:text="ห้องเรียน"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="382dp"
+                    android:layout_height="173dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/mitr_extralight"
+                    android:text="\nห้องเรียน  ในมหาวิทยาลัยเป็นสถานที่สำคัญสำหรับการเรียนรู้และปฏิบัติทักษะเทคโนโลยีสารสนเทศ เช่น การเขียนโปรแกรม การพัฒนาเว็บไซต์ และการทำโปรเจ็กต์ที่เกี่ยวข้อง นอกจากนี้ยังเป็นสถานที่ฝึกปฏิบัติการใช้งานอุปกรณ์และเทคโนโลยีต่าง ๆ ที่เกี่ยวข้องกับด้านนี้"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="380dp"
+                    android:layout_height="157dp"
+                    android:layout_gravity="center">
+
+                    <!-- LinearLayout สำหรับจัดวาง ImageView แบบแนวนอน -->
+                    <LinearLayout
+                        android:layout_width="500dp"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+
+                        <!-- ImageView แสดงรูปภาพที่ 1 -->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="centerCrop"
+
+                            android:src="@drawable/class1" />
+
+                        <!-- ImageView แสดงรูปภาพที่ 2 -->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/class2" />
+
+                        <!-- ImageView แสดงรูปภาพที่ 3 -->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/class3" />
+
+                        <!-- ImageView แสดงรูปภาพที่ 4 -->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/class4" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/class5" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/class6" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/class7" />
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/class9" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/class10" />
+
+                        <!-- เพิ่ม ImageView ตามจำนวนรูปภาพที่ต้องการ -->
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TextView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_text"
+                        android:backgroundTint="#215DB3"
+                        android:elevation="6dp"
+                        android:fontFamily="@font/mitr_light"
+                        android:gravity="center"
+                        android:text="ห้องปฎิบัติการ"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="382dp"
+                        android:layout_height="167dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:text="\nห้องปฎิบัติการ เป็นแหล่งเรียนรู้ภายในมหาวิทยาลัย เพื่อให้นักศึกษาสามารถเรียนรู้และเพิ่มทักษะด้านเทคโนโลยีสารสนเทศ ทักษะด้านคอมพิวเตอร์ การสืบค้นข้อมูล เพิ่มพูนความรู้และประสบการณ์ชีวิต เป็นแหล่งเรียนรู้ที่ใช้ประโยชน์และเหมาะมากที่สุด"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="380dp"
+                        android:layout_height="157dp"
+                        android:layout_gravity="center">
+
+                        <!-- LinearLayout สำหรับจัดวาง ImageView แบบแนวนอน -->
+                        <LinearLayout
+                            android:layout_width="500dp"
+                            android:layout_height="150dp"
+                            android:orientation="horizontal">
+
+
+                            <!-- ImageView แสดงรูปภาพที่ 1 -->
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/lab1" />
+
+                            <!-- ImageView แสดงรูปภาพที่ 2 -->
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/lab2" />
+
+                            <!-- ImageView แสดงรูปภาพที่ 3 -->
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/lab3" />
+
+                            <!-- ImageView แสดงรูปภาพที่ 4 -->
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/lab4" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:padding="2dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/lab5" />
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="304dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_text"
+                    android:backgroundTint="#215DB3"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/mitr_light"
+                    android:gravity="center"
+                    android:text="co-working space room"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="382dp"
+                    android:layout_height="116dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/mitr_extralight"
+                    android:text="\nCoworking Space ตั้งอยู่ที่ ชั้น 1 อาคารคณะเทคโนโลยีและการจัดการอุตสาหกรรม มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="380dp"
+                    android:layout_height="157dp"
+                    android:layout_gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="500dp"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/spk1" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/spk2" />
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/spk3" />
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/spk4" />
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="382dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/mitr_extralight"
+                    android:text="Department of Information Technology (IT)"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        app:menu="@menu/bottom_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

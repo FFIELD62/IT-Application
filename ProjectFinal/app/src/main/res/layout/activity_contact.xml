@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".ContactActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewPer"
+        android:layout_width="0dp"
+        android:layout_height="705dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_gravity="center_vertical"
+                android:background="#FAFAFA"
+                android:fontFamily="@font/mitr_medium"
+                android:gravity="center_vertical"
+                android:text="Contact KMUTNB"
+                android:textAlignment="center"
+                android:textColor="#4E4E4E"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="268dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contactpng" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FAFAFA">
+
+                <TextView
+
+                    android:id="@+id/textView32"
+                    android:layout_width="340dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/rounded_text"
+                    android:drawableLeft="@drawable/internt1"
+                    android:drawablePadding="8dp"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/mitr_light"
+                    android:gravity="center"
+                    android:paddingLeft="6dp"
+                    android:text="Website\nhttps://www.fitm.kmutnb.ac.th/"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+                <TextView
+
+                    android:id="@+id/textView18"
+                    android:layout_width="340dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_text"
+                    android:drawableLeft="@drawable/call"
+                    android:drawablePadding="8dp"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/mitr_light"
+                    android:gravity="center"
+                    android:paddingLeft="6dp"
+                    android:text="Tel\n037-217339 \t |   037-217340-3"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+                <TextView
+
+                    android:id="@+id/textView20"
+                    android:layout_width="340dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_text"
+                    android:drawableLeft="@drawable/fb"
+                    android:drawablePadding="8dp"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/mitr_light"
+                    android:gravity="center"
+                    android:paddingLeft="6dp"
+                    android:text="Facebook \nFITM.KMUTNB"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+                <TextView
+
+                    android:id="@+id/textView22"
+                    android:layout_width="340dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_text"
+                    android:drawableLeft="@drawable/fax"
+                    android:drawablePadding="8dp"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/mitr_light"
+                    android:gravity="center"
+                    android:paddingLeft="6dp"
+                    android:text="Fax \n037-217317"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                <TextView
+
+                    android:id="@+id/textView28"
+                    android:layout_width="337dp"
+                    android:layout_height="81dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_text"
+                    android:drawableLeft="@drawable/mapicon"
+                    android:drawablePadding="8dp"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/mitr_light"
+                    android:gravity="center"
+                    android:onClick="BottomMap"
+                    android:paddingLeft="6dp"
+                    android:text="Map \n129หมู่21 ต.เนินหอม อ.เมือง จ.ปราจีนบุรี 25230"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+                <TextView
+
+                    android:id="@+id/textView15"
+                    android:layout_width="334dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.48"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+
+                    android:id="@+id/textView35"
+                    android:layout_width="334dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.51"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- เพิ่มองค์ประกอบอื่น ๆ ตามต้องการ -->
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollViewPer"
+        app:menu="@menu/bottom_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>
